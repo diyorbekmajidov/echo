@@ -14,6 +14,4 @@ def webhook():
     # get data from request
     data = print(request.get_json(force=True))
 
-    print(data)
-
     return 'ok'
